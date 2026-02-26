@@ -1,0 +1,66 @@
+# =========================
+# Python Virtual Environments
+# =========================
+.venv/
+venv/
+ENV/
+env/
+
+# =========================
+# Python Bytecode / Cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Python Packaging
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Jupyter / IPython
+# =========================
+.ipynb_checkpoints/
+.profile_default/
+
+# =========================
+# PySpark / Spark
+# =========================
+spark-warehouse/
+metastore_db/
+derby.log
+
+# =========================
+# Logs & Temp Files
+# =========================
+*.log
+logs/
+tmp/
+*.tmp
+
+# =========================
+# OS / Editor Files
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+*.pem
+*.key
+
+# =========================
+# Coverage / Test Artifacts
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/

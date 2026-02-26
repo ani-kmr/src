@@ -64,19 +64,13 @@ def main():
 
     joined_df = jd.join_product_sales(products_df, sales_df)
 
-    # print("#############################################################")
-    # print("=== Joined dataframe of product and sales ===")
-    # joined_df.show(truncate=False)
-    # compute_aggregations(joined_df)
     category_sales, product_sales, gender_stats = aggr.compute_aggregations(joined_df)
 
     updated_inventory = up.update_inventory(products_df, joined_df)
+
+    
     print("#######################################################")
 
 
 if __name__ == "__main__":
-<<<<<<< HEAD
     main()
-=======
-    main()
->>>>>>> fdb66a3 (added new src code)
